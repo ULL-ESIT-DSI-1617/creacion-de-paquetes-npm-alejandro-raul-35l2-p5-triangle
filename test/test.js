@@ -6,7 +6,7 @@ require("should");
 
 describe("getArea", function() {
   
-  it("must compute the square shape area correctly", function(){
+  it("must compute the triangle shape area correctly", function(){
 		let a = new Shape ({ width: 100, height: 50 }, 'Triangle');
 		let s = a.getArea();
 		s.should.equal(2500);
